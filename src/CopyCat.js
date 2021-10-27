@@ -9,11 +9,13 @@ const images = {
 export class CopyCat extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Copy Cat</h1>
+            <div style={styles.divStyles}>
+                <h1 style={{marginBottom: 80}}>Copy Cat</h1>
                 <input
                 type="text"/>
-                <img/>
+                <img
+                style={styles.imgStyles}
+                />
             </div>
         )
     }
