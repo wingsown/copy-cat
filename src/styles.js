@@ -1,0 +1,1 @@
+const fontFamily = 'Comic Sans MS, Lucida Handwriting, cursive';
