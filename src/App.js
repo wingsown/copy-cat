@@ -1,14 +1,17 @@
+import React from 'react';
 import './App.css';
 import { CopyCat } from './CopyCat';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header"> 
-        <CopyCat/>
-      </header>
-    </div>
-  );
+export class CopyCatContainer extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <CopyCat/>
+        </header>
+      </div>
+      
+    )
+  }
 }
 
-export default App;
