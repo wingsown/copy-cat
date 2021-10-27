@@ -1,4 +1,5 @@
 import React from 'react';
+import { styles } from './styles';
 
 const images = {
     copycat: 'https://content.codecademy.com/courses/React/react_photo_copycat.png',
