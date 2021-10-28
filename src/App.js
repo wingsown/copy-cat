@@ -25,6 +25,11 @@ export class CopyCatContainer extends React.Component {
   }
 
   render() {
+    const copying = this.state.copying;
+    const toggleTape = this.state.toggleTape;
+    const value = this.state.input;
+    const handleChange = this.handleChange;
+
     return (
       <div className="App">
         <header className="App-header">
