@@ -33,7 +33,12 @@ export class CopyCatContainer extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <CopyCat/>
+          <CopyCat
+          copying={copying}
+          toggleTape={toggleTape}
+          value={value}
+          handleChange={handleChange}
+          />
         </header>
       </div>
       
